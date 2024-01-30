@@ -82,11 +82,10 @@ Weight: 100%
 Scope: All intended learning outcomes of the module.  
 Completion: to pass this module, the examination has to be passed with at least 45%  
 
-The project components must be delivered in a personalized repositories in the GitHub organization <https://github.com/CU-S24-MSDSSB-DSCI-01-DataScienceLab>.
+The project components must be delivered in a non-public **project-repository** on **GitHub** provided by the instructor in the GitHub-Organization  [CU-S24-MSDSSB-DSCI-01-DataScienceLab](https://github.com/CU-S24-MSDSSB-DSCI-01-DataScienceLab). If your project requires another way of delivery, get in contact with the instructor before the submission.
 
 
 ## Module Policies
-
 
 There are no formal requirement about attendance and active participation. However, we rely on your **engagement** in a many-facted way including: 
 
