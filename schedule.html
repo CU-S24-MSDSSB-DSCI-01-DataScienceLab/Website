@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Data Science Lab</span>
     </a>
@@ -82,23 +89,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Syllabus</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Syllabus</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Schedule</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Schedule</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -108,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -131,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -160,7 +167,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
@@ -199,42 +208,42 @@ Organization repository with non-public information and FAQ in Discussions: <a h
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>02-01</td>
+<td>Feb 01</td>
 <td>Kick off the Lab</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>02-08</td>
+<td>Feb 08</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>02-15</td>
+<td>Feb 15</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>02-22</td>
+<td>Feb 22</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>02-29</td>
+<td>Feb 29</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>03-07</td>
+<td>Mar 07</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>03-14</td>
+<td>Mar 14</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>03-21</td>
+<td>Mar 21</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -244,27 +253,27 @@ Organization repository with non-public information and FAQ in Discussions: <a h
 </tr>
 <tr class="even">
 <td>9</td>
-<td>04-04</td>
+<td>Apr 04</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>10</td>
-<td>04-11</td>
+<td>Apr 11</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>11</td>
-<td>04-18</td>
+<td>Apr 18</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>12</td>
-<td>04-25</td>
+<td>Apr 25</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>13</td>
-<td>05-02</td>
+<td>May 02</td>
 <td></td>
 </tr>
 </tbody>
@@ -285,6 +294,69 @@ Note
 </div>
 </div>
 </div>
+<!--   | Week | Date         | Time              | Room                            | What?                                               | -->
+<!-- |:-----|:-------------|------------------:|:--------------------------------|:----------------------------------------------------| -->
+<!-- | 1    | 2023-02-02   |   14:15 - 17:00   | IRC Sem. I                      | Introduction                                        | -->
+<!-- | 2    | 2023-02-09   |   14:15 - 17:00   | IRC Sem. I                      | Topic and group formation                           | -->
+<!-- | 3    | 2023-02-16   |   14:15 - 17:00   | IRC Sem. I                      | Student Proposal Presentations, Q&A                 | -->
+<!-- | 4    | 2023-02-23   |   14:15 - 17:00   | IRC Sem. I                      | Student Proposal Presentations, Q&A                 | -->
+<!-- | 5    | 2023-03-02   |   14:15 - 17:00   | MS Teams (in person on request) | Individual Sessions Instructor + Teams              |     -->
+<!-- | 6    | 2023-03-09   |   14:15 - 17:00   | IRC Sem. I                      | Tutorial on collecting data (Scrape, API, SQL, ...) | -->
+<!-- | 7    | 2023-03-16   |   14:15 - 17:00   | Individual meetings on request  | Please ask for an appointment!                      | -->
+<!-- | 8    | 2023-03-23   | **15:45 - 18:30** | **East Hall 3**                 | Student Progress Presentations, Q&A                 | -->
+<!-- | 9    | 2023-03-30   |   14:15 - 17:00   | IRC Sem. I                      | Student Progress Presentations, Q&A                 | -->
+<!-- |      | Spring break |   14:15 - 17:00   |                                 |                                                     | -->
+<!-- | 10   | 2023-04-13   |   14:15 - 17:00   | IRC Sem. I                      | Quarto tutorial, Student Progress Presentations     | -->
+<!-- | 11   | 2023-04-20   |   14:15 - 17:00   | MS Teams (in person on request) | Individual Sessions Instructor + Teams (Times below)| -->
+<!-- | 12   | 2023-04-27   |   14:15 - 17:00   | Individual meetings on request  | Please ask for an appointment!                      | -->
+<!-- | 13   | 2023-05-04   |   14:15 - 17:00   | IRC Sem. I                      | Student Final Presentations                         | -->
+<!-- | 14   | 2023-05-11   |   14:15 - 17:00   | IRC Sem. I                      | Student Final Presentations                         | -->
+<!-- ## Past sessions -->
+<!-- **Week 3: Student Proposal Presentations** -->
+<!-- Time: 15 min. per project of 1 person, + 5 min. for each additional Team member -->
+<!-- We have time for discussion after each presentation.  -->
+<!-- - Team, course and project organization -->
+<!-- - Team G: Jana Bensing (15 min) -->
+<!-- - Team D: Aiman Alam, Niloufar Shokri (20 min) -->
+<!-- - Team A: Leslie Magoronga, Nasim Maleki Farsani (20 min.) -->
+<!-- - Team E: Modou Lamin Manjang, Sergey Polyarus (20 min.) -->
+<!-- - Further team, course and project organization -->
+<!-- **Week 4: Student Proposal Presentations** -->
+<!-- Time: 15 min. per project of 1 person, + 5 min. for each additional Team member -->
+<!-- We have time for discussion after each presentation.  -->
+<!-- - Team B: Akshatha Akshatha, Doris Ameyaw (20 min.) -->
+<!-- - Team C: Daria Markova, Suraj Karakulath (20 min.) -->
+<!-- - Team F: Mohammed El Hmidi, Ishimwe Melyse (20 min.) -->
+<!-- - Team H: Tapuwa Mhembere (15 min.) -->
+<!-- - Team I: Husnain Dawood (15 min.) -->
+<!-- **Week 5: Individual Session Team + Instructor** -->
+<!-- Team appointments in the range 14:15-17:00.  -->
+<!-- Time: minimally 15 min. per project of 1 person, + 5 min. for each additional Team members.  -->
+<!-- See the times of your Team in the table below.  -->
+<!-- **Beware:** On the instructors side it is a very tough time table, so it is important to try to be ready by the minute and prepare well what you want to show. The instructor will create a chat for all participants in MS Teams. We can meet there. You can start a meeting there at the exact time and the instructor will join as soon as possible. If you prefer to meet in-person just post a message in the chat before and come to IRC Seminar Room 1.  -->
+<!-- Topics for the meeting: -->
+<!-- - Anything project related coming from your side. You are encouraged to post topics in the chat before.  -->
+<!-- - When the instructor sees the need for a particular topic, it will be posted in the chat before.  -->
+<!-- - For the progress presentation: What could be the **learning focus** for the whole course? -->
+<!-- **Week 6:** In IRC Seminar Room I -->
+<!-- Hands-on tutorial on **collecting data** (SQL, API, html-Scraping, ...) -->
+<!-- Material: Clone this repository and look at the Slidedeck `CollectingData.html` in [tutorials](tutorials). -->
+<!-- **Week 7:** Individual meetings on request.  -->
+<!-- **Week 8: Student Progress Presentations** 📢 **ROOM & TIME CHANGE: 🟥 15:45 - 18:00 East Hall 3 🟥** -->
+<!-- See the [guidelines for the student presentations](PRESENTATIONS.md).  -->
+<!-- Session 1 -->
+<!-- - Team A: Leslie Magoronga, Nasim Maleki Farsani (20 min.) LEARNING: **Data transformation: Recency, Frequency, Monetary value** -->
+<!-- - Team B: Akshatha Akshatha, Doris Ameyaw (20 min.) LEARNING: **Map visualization** -->
+<!-- Session 2 -->
+<!-- - Team C: Daria Markova, Suraj Karakulath (20 min.) LEARNING: **From server log data to user characteristics"" -->
+<!-- - Team G: Jana Bensing (15 min) LEARNING: **Interpreting the confusion matrix** -->
+<!-- **Week 9: Student Progress Presentations** -->
+<!-- See the [guidelines for the student presentations](PRESENTATIONS.md).  -->
+<!-- Session 1 -->
+<!-- - Team D: Aiman Alam, Niloufar Shokri (20 min) LEARNING: **Extracting Features from time series** -->
+<!-- - Team H: Tapuwa Mhembere, Mohammed El Hmidi (15 min.) LEARNING: **Aspects of dealing with missing values** -->
+<!-- Session 2 -->
+<!-- - Team E: Modou Lamin Manjang, Sergey Polyarus (20 min.) LEARNING: **Time series: ARIMA model** -->
 
 
 </section>
@@ -369,10 +441,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -382,8 +453,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -396,6 +476,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -439,6 +638,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -464,6 +664,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -524,6 +750,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
