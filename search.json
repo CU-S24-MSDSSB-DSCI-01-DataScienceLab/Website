@@ -215,7 +215,7 @@
     "href": "tutorials/report_writing.html#excursion-header-yaml-vs.-json",
     "title": "Communication and Reporting",
     "section": "Excursion Header: YAML vs. JSON",
-    "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html\nE.g., a table-of-content, code-folding, …"
+    "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html: a table-of-content, code-folding, …"
   },
   {
     "objectID": "tutorials/report_writing.html#tutorial-authoring-and-scholarly-writing",
@@ -243,13 +243,13 @@
     "href": "tutorials/report_writing.html#workflow-towards-a-final-report",
     "title": "Communication and Reporting",
     "section": "Workflow: Towards a final report",
-    "text": "Workflow: Towards a final report\nYou want to do things like:\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nHave a nice structure of the text, e.g. with numbered headlines, a table of content, figure captions, cross references to figures, footnotes, citations to references, appendices …"
+    "text": "Workflow: Towards a final report\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nStructure the text: sensible (numbered) headingsines, table of content, cross references to figures, footnotes, citations, appendices …"
   },
   {
     "objectID": "tutorials/report_writing.html#derivatives-of-your-report",
     "href": "tutorials/report_writing.html#derivatives-of-your-report",
     "title": "Communication and Reporting",
     "section": "Derivatives of your report",
-    "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings\n\n\n\n\n\n\nCU-S24-MSDSSB-DSCI-01-DataScienceLab"
+    "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\n\nDuplicate the file, adjust the YAML to revealjs and see how it looks and adjust\n\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings\n\n\n\n\n\n\nCU-S24-MSDSSB-DSCI-01-DataScienceLab"
   }
 ]
